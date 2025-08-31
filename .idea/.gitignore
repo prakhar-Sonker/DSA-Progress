@@ -1,0 +1,13 @@
+# Java
+*.class
+*.jar
+target/
+
+# Python
+__pycache__/
+*.pyc
+
+# Misc
+.vscode/
+.idea/
+.DS_Store
