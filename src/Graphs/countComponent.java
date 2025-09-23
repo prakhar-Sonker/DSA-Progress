@@ -14,14 +14,14 @@ public class countComponent {
     int count = 0;
     for (int i = 0; i < V; i++) {
       if (!vis[i]) {
-        helper(i, adj, result, vis, count);
+        bfs(i, adj, result, vis, count);
         count++;
       }
     }
     return count;
   }
 
-  public static int helper(int src, ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> result, boolean[] vis,
+  public static int bfs(int src, ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> result, boolean[] vis,
       int count) {
 
     Queue<Integer> q = new ArrayDeque<>();
