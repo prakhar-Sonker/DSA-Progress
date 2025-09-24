@@ -2,12 +2,7 @@ package practice;
 
 import java.util.Scanner;
 
-public class adj {
-  // public int[][] buildAdjMatrix(int V, int[][] edges) {
-  // for(int i=0;i<V;i++){
-
-  // }
-  // }
+public class adjMat {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
